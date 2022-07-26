@@ -6,7 +6,7 @@ import {
   AiOutlineSearch,
   AiOutlineUser,
 } from 'react-icons/ai';
-import Logo from '../../images/logo1.png';
+import Logo from '../../images/logo.png';
 
 const Navbar = () => {
   return (
@@ -24,13 +24,16 @@ const Navbar = () => {
             <a href='/'>Sign up</a>
           </li>
           <li>
-            <AiOutlineSearch />
+            <AiOutlineSearch size={25} style={{ marginTop: '6px' }} />
           </li>
           <li>
-            <AiOutlineUser />
+            <AiOutlineUser size={25} style={{ marginTop: '6px' }} />
           </li>
         </ul>
       </nav>
+      <div className={styles.mobile_btn}>
+        <AiOutlineMenu size={25} />
+      </div>
     </header>
   );
 };
