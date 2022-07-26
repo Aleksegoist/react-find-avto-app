@@ -58,6 +58,12 @@ const Luxury = () => {
             <h3>Porsche</h3>
           </div>
         </div>
+        <div className={styles.card}>
+          <img src='https://i.ibb.co/GnWc04y/IMG-3506.jpg' alt='/' />
+          <div className={styles.content}>
+            <h3>Ford Fusion</h3>
+          </div>
+        </div>
       </div>
     </div>
   );
