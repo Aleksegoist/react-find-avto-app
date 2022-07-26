@@ -35,12 +35,6 @@
   color: #fff;
 }
 
-/* @media screen and (max-width: 600px) {
-  .footer span {
-    display: none;
-  }
-} */
-
 @media screen and (max-width: 600px) {
   .footer .logo {
     max-width: 55%;
