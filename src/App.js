@@ -1,3 +1,4 @@
+import Find from './components/find/Find';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 
@@ -6,6 +7,7 @@ const App = () => {
     <div className='App'>
       <Navbar />
       <Hero />
+      <Find />
     </div>
   );
 };

@@ -6,7 +6,7 @@ import {
   AiOutlineSearch,
   AiOutlineUser,
 } from 'react-icons/ai';
-import Logo from '../../images/logo.png';
+import Logo from '../../images/logo.svg';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
