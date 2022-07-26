@@ -26,9 +26,10 @@ const Find = () => {
           slidesPerView={5}
           navigation
           breakpoints={{
-            //when window width is >= 340px
-            340: {
-              width: 200,
+            //when window width is >= 320px
+
+            320: {
+              width: 320,
               slidesPerView: 1,
             },
             //when window width is >= 768px
