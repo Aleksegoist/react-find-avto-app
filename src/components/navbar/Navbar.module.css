@@ -38,7 +38,7 @@
     flex-direction: column;
     justify-content: center;
     position: fixed;
-    left: 0;
+    left: -100%;
     right: 0;
     bottom: 0;
     top: 0;
@@ -47,5 +47,13 @@
     background-color: #f8f8f8;
     z-index: 10;
     transition: left 1s;
+  }
+
+  .active {
+    left: 0;
+  }
+
+  .navbar a {
+    font-size: 2rem;
   }
 }
